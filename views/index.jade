@@ -1,0 +1,162 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(content='width=device-width,initial-scale=1.0,maximum-scale=1.0', name='viewport')
+    meta(name='twitter:widgets:theme', content='light')
+    meta(property='og:title', content='Hotshot Sports')
+    meta(property='og:type', content='website')
+    meta(property='og:image', content='Your-Image-Url')
+    meta(property='og:description', content='At Hotshot, we change perceptions by building a sports ecosystem for the people.')
+    title Hotshot | Sports
+    link(rel='shortcut icon', type='image/x-icon', href='images/logo.ico')
+    // Font
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CRoboto:300,400,500,700', rel='stylesheet', type='text/css')
+    // Css
+    link(rel='stylesheet', href='css/core.min2.css')
+    link(rel='stylesheet', href='css/skin.css')
+    //if lt IE 9
+      script(type='text/javascript', src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
+  body.shop.home-page.bkg-black
+    // Overlay Navigation Menu
+    .overlay-navigation-wrapper.one-page-nav(data-no-scrollbar='', data-animation='scale-in')
+      .overlay-navigation-scroll-pane
+        .overlay-navigation-inner
+          .v-align-middle
+            .overlay-navigation-header.row.collapse.full-width
+              .column.width-12
+                .navigation-hide.overlay-nav-hide
+                  a(href='#')
+                    span.icon-cancel
+            .row.collapse.full-width
+              .column.width-12
+                nav.overlay-navigation.nav-block.center
+                  li
+                    a.font-alt-1(href='contact.jade') CONTACT
+                  //
+            .overlay-navigation-footer.row.full-width.center
+              .column.width-12.no-padding
+                p.copyright
+                  | © 2017 HOTSHOT Sports. All Rights Reserved.
+                  br
+                  // <a href="http://vectorx.co" class="no-page-fade" target="_blank" >Designed and Developed by VectorX</a></p>
+    // Overlay Navigation Menu End
+    .wrapper.reveal-side-navigation
+      .wrapper-inner
+        // Header
+        header.header.header-fixed.header-transparent.header-fixed-on-mobile
+          //
+            <div class="header-inner-top">
+            <div class="row nav-bar">
+            <div class="column width-10 nav-bar-inner">
+            <a href="pinkoctober.html" target="_blank" class="no-margins color-pink">Celebrate Pink October!</a>
+            </div>
+            <div class="column width-2 nav-bar-inner right">
+            <p class="no-margins"><span class="icon-location-pin"></span>Hyderabad</p>
+            </div>
+            <a data-content="inline" data-toolbar="" data-networks="twitter;pinterest" data-modal-mode data-modal-width="600" href="#signup-lightbox" class="lightbox-link column width-1 nav-bar-inner bkg-grey-ultralight center color-black color-hover-red "><span>SIGN UP</span></a>
+            <a data-content="inline" data-toolbar="" data-networks="twitter;pinterest" data-modal-mode data-modal-width="600" href="#login-lightbox" class="lightbox-link column width-1 nav-bar-inner bkg-red center color-hover-white"><span>LOG IN</span></a>
+            </div>
+            </div>
+          .header-inner
+            .row.nav-bar
+              .column.width-12.nav-bar-inner
+                .logo
+                  .logo-inner
+                    a.scroll-link(href='#home')
+                      img(src='images/hotshotlogo.png', alt='hotshot logo')
+                    a.scroll-link(href='#home')
+                      img(src='images/hotshotlogo.png', alt='hotshot logo')
+                nav.navigation.nav-block.secondary-navigation.nav-right
+                  ul
+                    li.aux-navigation.hide
+                      // Aux Navigation
+                      a.navigation-show.overlay-nav-show.nav-icon(href='#')
+                        span.icon-menu
+                nav.navigation.nav-block.primary-navigation.nav-right
+                  ul
+                    li
+                      // <a href="#product" data-offset="-40" class="scroll-link">BOOK A FACILITY</a>
+                    | -->
+                    li
+                      a.font-alt-1(href='contact.html') CONTACT
+                    //
+                      <!--
+                      <li class="contains-sub-menu">
+                      <a href="about.html" data-offset="-60" class="">About</a>
+                      <ul class="sub-menu">
+                      <li>
+                      <a href="about.html" class="" >Company</a>
+                      </li>
+                      <li>
+                      <a href="careers.html">Careers</a>
+                      </li>
+                      </ul>
+                      </li>
+        // Header End
+        #map
+          iframe(src='https://www.google.com/maps/d/embed?mid=1IUBalHNG1xMwWqKM-LznJ1PfEP0', width='640', height='400')
+        // Footer
+        footer.footer
+          .footer-top
+            .footer-top-inner
+              .row.flex
+                .column.width-2
+                  .footer-logo
+                    a(href='index.html')
+                      img(src='images/hotshotlogo.png', alt='Hotshot Logo')
+            .row.flex
+              .column.width-4
+                .widget
+                  // <h4 class="widget-title">CIX Software Inc.</h4>
+                  p
+                    | Hotshot is all about sports. We create your world around sports & activities. Experience sports like never before through us.
+              .column.width-4.offset-2.left
+                .widget
+                  ul
+                    li
+                      a(href='contact.jade') CONTACT
+              .column.width-2.left
+                .widget
+                  h4.widget-title.font-med SOCIAL
+                  //
+                    <address class="mb-20">
+                    Hyderabad, India<br>
+                    </address>
+                    <p class="mb-10"><a href="mailto:#">contact@hotshotgo.com</a></p>
+                  ul.social-list.list-horizontal
+                    li
+                      a(href='https://www.facebook.com/hotshotgo', target='_blank')
+                        span.icon-facebook.color-grey-ultralight.medium.color-hover-linkedin
+                    li
+                      a(href='https://twitter.com/hotshotgo', target='_blank')
+                        span.icon-twitter.color-grey-ultralight.medium.color-hover-twitter
+                    li
+                      a(href='https://www.instagram.com/hotshotgo/?hl=en', target='_blank')
+                        span.icon-instagram.color-grey-ultralight.medium.color-hover-instagram
+                    li
+                      a(href='https://www.youtube.com/channel/UCKTeE68XDwqb29sL08QLoew', target='_blank')
+                        span.icon-youtube.color-grey-ultralight.medium.color-hover-youtube
+          .footer-bottom
+            .row
+              .column.width-12
+                p.copyright
+                  span.pull-left © 2017 Hotshot Sports, LLP. All Rights Reserved.
+                  span.pull-right
+                    a(href='#') Terms of Use
+                    |  
+                    a(href='#') Privacy Policy
+                  br
+                  // <a href="http://vectorx.co" target="_blank" class="color-white">Designed and Developed by VectorX</a>
+        // Footer End
+    // Js
+    script(src='js/jquery-1.11.2.min.js')
+    script(src='js/timber.master.min.js')
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-71930908-5', 'auto');
+      ga('send', 'pageview');
+// By logging in, you agree to Hotshot's Privacy Policy and Terms of Use
